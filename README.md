@@ -1,5 +1,66 @@
 # Processo Seletivo Maptriz
 
+# API REST para Agenda de Contatos (Java + Angular)
+
+Este projeto consiste no desenvolvimento de uma API REST em Java para gerenciar uma agenda de contatos, além de um front-end em Angular 23.5.0. O sistema segue boas práticas de Clean Code e Domain-Driven Design (DDD).
+
+## 🏗 Arquitetura do Projeto
+
+- **Back-end:** Java (Spring Boot) com uma base de dados SQL.
+- **Front-end:** Angular 23.5.0 seguindo DDD e Clean Code.
+- **Autenticação:** Via endpoint externo.
+- **Notificações:** Envio de e-mails ao criar um contato.
+- **Validações:** CPF e CEP válidos.
+
+## 🖥 Back-end (Java + Spring Boot)
+
+### 📂 Estrutura do Projeto
+
+```
+backend/
+│── src/
+│   ├── main/java/com/exemplo/agenda/
+│   │   ├── application/  # Casos de uso
+│   │   ├── domain/       # Entidades e repositórios
+│   │   ├── infrastructure/ # Integração com banco e serviços
+│   │   ├── presentation/  # Controllers e DTOs
+│   ├── resources/
+│   │   ├── application.yml  # Configuração do Spring Boot
+```
+
+### 📌 Funcionalidades
+- CRUD de contatos (criação, edição, consulta e remoção).
+- Validação de CPFs e CEPs inválidos.
+- Integração com API externa para envio de e-mails.
+- Tratamento global de exceções.
+
+## 🎨 Front-end (Angular 23.5.0)
+
+### 📂 Estrutura do Projeto
+
+```
+frontend/
+│── src/
+│   ├── app/
+│   │   ├── core/       # Serviços e modelos
+│   │   ├── features/   # Componentes específicos (CRUD de contatos)
+│   │   ├── shared/     # Componentes reutilizáveis
+│   ├── assets/
+│   ├── environments/
+```
+
+### 📌 Funcionalidades
+- Interface moderna e responsiva para gerenciar contatos.
+- Formulários reativos com validações para CPF e CEP.
+- Serviço centralizado de autenticação via API externa.
+- Uso de RxJS para manipulação assíncrona.
+- Padrão de diretivas e componentes reutilizáveis.
+
+## 🚀 Tecnologias Utilizadas
+- **Back-end:** Java, Spring Boot, Hibernate, Flyway, PostgreSQL, Lombok.
+- **Front-end:** Angular 23.5.0, RxJS, Angular Material.
+- **Ferramentas:** Docker, Postman, Swagger.
+
 ## Introdução
 
 O processo seletivo é caracterizado por um projeto full-stack sub-divido em dois projetos - Back e Front.

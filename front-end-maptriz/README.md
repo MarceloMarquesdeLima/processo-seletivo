@@ -1,5 +1,23 @@
 # Desafio Técnico Front-end
 
+// Estrutura do projeto:
+// src/
+// ├── app/
+// │   ├── core/                # Serviços e lógica de domínio
+// │   ├── modules/             # Módulos independentes
+// │   │   ├── contact/         # Módulo de contatos
+// │   │   │   ├── components/  # Componentes específicos
+// │   │   │   ├── pages/       # Páginas principais
+// │   │   │   ├── services/    # Serviços de contato
+// │   │   │   ├── contact.module.ts
+// │   │   │   ├── contact-routing.module.ts
+// │   ├── shared/              # Componentes e diretivas reutilizáveis
+// │   ├── app-routing.module.ts
+// │   ├── app.module.ts
+// ├── environments/            # Configurações de ambiente
+// ├── assets/                  # Recursos estáticos
+// ├── styles/                  # Estilos globais
+
 ## Introdução
 
 O objetivo deste desafio é avaliar sua abordagem para resolver um problema utilizando recursos comuns dos sistemas da Maptriz. Fornecemos um esqueleto de projeto em Angular como ponto de partida, mas você pode optar por outras tecnologias de front-end, se preferir.
