@@ -18,16 +18,6 @@ Em ambos os casos, evite mencionar a mqs em seu projeto/fork.
 
 A escolha de ferramentas para o desenvolvimento ficará a seu critério.
 
-Não se preocupe caso não consiga concluir 100% dos dois desafios até a data final estabelecida no e-mail que lhe foi enviado. Procure concluir o máximo possível dentro do prazo estabelecido. A equipe técnica da mqs realizará a avaliação mesmo se os desafios estiverem incompletos.
-
-Fique à vontade para tirar quaisquer dúvidas relacionadas ao processo e os desafios através do e-mail processoseletivo@mqs.com.br.
-
-## Avaliação
-
-Após concluir os projetos, tenha certeza de detalhar as tecnologias utilizadas em seus respectivos READMEs. Após isso, envie os links para os projetos no GitHub para o e-mail processoseletivo@mqs.com.br.
-
-A equipe técnica da mqs realizará um *Code Review* de seus projetos e, eventualmente, marcará uma reunião remota para discutir a sua solução dos desafios.
-
 ## Conclusão
 
 Boa sorte no desafio! A equipe mqs deseja muito sucesso para você!
