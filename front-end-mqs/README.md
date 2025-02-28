@@ -2,11 +2,11 @@
 
 ## Introdução
 
-O objetivo deste desafio é avaliar sua abordagem para resolver um problema utilizando recursos comuns dos sistemas da Maptriz. Fornecemos um esqueleto de projeto em Angular como ponto de partida, mas você pode optar por outras tecnologias de front-end, se preferir.
+O objetivo deste desafio é avaliar sua abordagem para resolver um problema utilizando recursos comuns dos sistemas da mqs. Fornecemos um esqueleto de projeto em Angular como ponto de partida, mas você pode optar por outras tecnologias de front-end, se preferir.
 
-Ao concluir, hospede o projeto no seu GitHub (evite referências diretas à Maptriz). Realizaremos um *Code Review* e uma conversa técnica posteriormente. Se optar por usar a base em Angular, faça um *fork* do projeto no seu GitHub.
+Ao concluir, hospede o projeto no seu GitHub (evite referências diretas à mqs). Realizaremos um *Code Review* e uma conversa técnica posteriormente. Se optar por usar a base em Angular, faça um *fork* do projeto no seu GitHub.
 
-Envie o link do seu GitHub para processoseletivo@maptriz.com.br.
+Envie o link do seu GitHub para processoseletivo@mqs.com.br.
 
 ## Descrição do Desafio
 
