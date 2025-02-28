@@ -32,20 +32,20 @@ Requisitos opcionais:
 
 Estrutura do Projeto
 
-src
-└── main
-    ├── java
-    │   └── com
-    │       └── example
-    │           └── contactmanager
-    │               ├── ContactManagerApplication.java
-    │               ├── controller
-    │               │   └── ContactController.java
-    │               ├── model
-    │               │   └── Contact.java
-    │               ├── repository
-    │               │   └── ContactRepository.java
-    │               └── service
-    │                   └── ContactService.java
-    └── resources
-        └── application.properties
+/src
+ ├── /main
+ │    ├── /java
+ │    │    └── /com/seuprojeto
+ │    │         ├── /config
+ │    │         ├── /controller
+ │    │         ├── /entity
+ │    │         ├── /repository
+ │    │         └── /service
+ │    └── /resources
+ │         ├── /static
+ │         ├── /templates
+ │         ├── application.properties
+ │         └── messages.properties
+ └── /test
+      └── /java
+           └── /com/seuprojeto
