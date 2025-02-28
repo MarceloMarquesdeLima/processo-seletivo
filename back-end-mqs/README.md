@@ -29,3 +29,23 @@ Requisitos opcionais:
 * Envio de mensagens de resposta traduzidas para pelo menos mais um idioma.
 * Envio de e-mail para cada registro realizado como notificação, utilizando um endpoint mockado (API mockada pode ser qualquer uma da escolha do desenvolvedor).
 * Restrição de operações da API apenas para usuários autenticados, utilizando um endpoint mockado para autenticação/obtenção dos dados do usuário atual, se necessário.
+
+Estrutura do Projeto
+
+src
+└── main
+    ├── java
+    │   └── com
+    │       └── example
+    │           └── contactmanager
+    │               ├── ContactManagerApplication.java
+    │               ├── controller
+    │               │   └── ContactController.java
+    │               ├── model
+    │               │   └── Contact.java
+    │               ├── repository
+    │               │   └── ContactRepository.java
+    │               └── service
+    │                   └── ContactService.java
+    └── resources
+        └── application.properties
